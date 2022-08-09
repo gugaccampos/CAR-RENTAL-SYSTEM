@@ -33,7 +33,6 @@ Feature: Lista de carros disponíveis para locação
         Then Clico em concluir Adição
         And Verifico no site que já está disponível o Toyota Corolla
         
-
     Scenario: Não possui a opção de carro procurada pelo cliente
         Given Eu estou logado como "cliente" no site
         And Estou na seção de "opção de veículo"
